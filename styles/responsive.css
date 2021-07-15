@@ -1,0 +1,18 @@
+/* responsive css for phones */
+@media (max-width: 688px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .banner-right img {
+        width: 100%;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    
+    }
+
+}
