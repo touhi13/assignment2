@@ -1,5 +1,9 @@
 /* responsive css for phones */
 @media (max-width: 688px) {
+    
+    .header {
+        min-width: 100%;
+    }
 
     .banner {
         flex-direction: column;
